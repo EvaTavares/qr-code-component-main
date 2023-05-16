@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 430px;
+        background-color: aliceblue;
+      }
+      .qrcode {
+        margin-top: 15px;
+        border-radius: 20px;
+        width: 400px;
+      }
+      .text1 {
+        width: 350px;
+        font-weight: bold;
+        font-family: Sans-serif;
+        text-align: center;
+        color: hsl(228, 45%, 44%);
+      }
+      .text2 {
+        width: 350px;
+        color: rgb(181, 177, 177);
+        font-family: Sans-serif;
+        text-align: center;
+        margin-bottom: 25px;
+      }
+      .attribution {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img class="qrcode" src="./images/image-qr-code.png" alt="" srcset="" />
+      </div>
+      <div class="text1">
+        <h2>Improve your front-end skills by building projects</h2>
+      </div>
+      <div class="text2">
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Eva Tavares</a>.
+      </div>
+    </div>
+  </body>
+</html>
